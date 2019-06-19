@@ -11,7 +11,7 @@ module.exports = (robot) ->
         msg.send 'ERROR!'
       else
         sleep 5000
-        msg.send ' https://github.com/trainingsysu/GrafanaImages/blob/master/p' + count + '.png'
+        msg.send ' https://github.com/trainingsysu/IForest/blob/master/GrafanaImages/p' + count + '.png'
 
 sleep = (ms)->
   start = new Date().getTime()
